@@ -1,0 +1,13 @@
+<!-- <div class="container">
+  <input type="file" (change)="onImageUpload($event)" accept="image/*">
+  <img #imageElement [hidden]="true">
+  <canvas #canvasElement></canvas>
+</div> -->
+
+<div class="container">
+  <input type="file" (change)="onImageUpload($event)" accept="image/*">
+  <div class="image-container">
+    <img #imageElement>
+    <canvas #canvasElement></canvas>
+  </div>
+</div>

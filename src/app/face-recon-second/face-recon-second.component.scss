@@ -1,0 +1,14 @@
+// canvas {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+// }
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none; /* Remove default border */
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); /* Cyan shadow for a high-tech feel */
+    mix-blend-mode: normal; /* Normal blend mode for clean look */
+    border-radius: 8px; /* Slightly rounded corners for a modern look */
+}  
